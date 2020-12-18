@@ -65,3 +65,18 @@ Apparently, non-uniform data distribution was a major challenge for training wit
 The second reason is the mis-labeled data. Figure 7 displays the result predicted from ResNet50. The text above each picture was the prediction from ResNet50. All pictures were labeled as “Anger”. Those pictures were in the test dataset, which was not fed to networks during the training. Among those 70 pictures, around half of their labels were in controversy. Pictures including 1,9,35,65 cannot be recognized as “Anger”. So, by bootstrapping the outlier categories, mis-labeled data was going to be fed more times to the network, which can be misleading for the network to learn.
 
 <img src='./resources/ResNet50-prediction.png'>
+<br/>
+
+### **V. References**
+
+Mehendale, N.<br/>
+<cite>Facial emotion recognition using convolutional neural networks (FERC). SN Appl. Sci. 2, 446 (2020). https://doi.org/10.1007/s42452-020-2234-1</cite>
+
+Gilligan, T.<br/>
+<cite>(2016). Emotion AI , Real-Time Emotion Detection using CNN.</cite>
+
+Dzedzickis, Andrius et al.</br>
+<cite>“Human Emotion Recognition: Review of Sensors and Methods.” Sensors (Basel, Switzerland) vol. 20,3 592. 21 Jan. 2020, doi:10.3390/s20030592</cite>
+
+Ezhilarasi, R., & Minu, R. I.</br>
+<cite>(2012). Automatic emotion recognition and classification. Procedia Engineering, 38, 21–26. https://doi.org/10.1016/j.proeng.2012.06.004</cite>
