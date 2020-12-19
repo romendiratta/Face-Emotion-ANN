@@ -12,3 +12,13 @@
     </object>
 </body>
 </html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+    <object data="./pdfs/ECE539FinalProject.pdf" type="application/pdf" style="min-height:100vh;width:100%"></object>
+  </body>
+</html>
