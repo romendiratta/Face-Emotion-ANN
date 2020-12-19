@@ -5,6 +5,10 @@
 
 <br/>
 
-<iframe src=”./resources/ECE539FinalProject.pdf" width=”100%” height=”100%”>
-This browser does not support PDFs. Please download the PDF to view it: Download PDF
-</iframe>
+<html>
+<body>
+    <object data="./pdfs/ECE539FinalProject.pdf" type="application/pdf">
+        <embed src="./pdfs/ECE539FinalProject.pdf" type="application/pdf" />
+    </object>
+</body>
+</html>
